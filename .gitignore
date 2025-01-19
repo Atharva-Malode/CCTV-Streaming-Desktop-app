@@ -1,0 +1,56 @@
+# Qt-specific
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+moc_*
+ui_*
+qrc_*
+Makefile*
+object_script.*
+
+# Build directories
+build/
+debug/
+release/
+.qmake/
+.moc/
+.obj/
+.rcc/
+.uic/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS Code specific
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
